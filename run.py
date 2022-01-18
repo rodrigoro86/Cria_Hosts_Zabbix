@@ -15,7 +15,7 @@
 #####################################################################################################
 """
 
-from cria_hosts_Tabela_para_ZABBIX import *
+from codigo.funcoes_Cria_Hosts import *
 
 tabela = Le_Tabela('tabelas/Tabela de Hosts.xlsx')
 
