@@ -5,6 +5,9 @@
 No zabbix de uma forma manual é necessário clicar em muitos botões e preencher muitos campos para criar <b>UM</b> host, agora imagina o trabalho repetitivo que daria para criar 100 hosts, sendo que esses 100 hosts muda só o nome e o ip ?  
 Desenvolvi esse código para facilitar essa criação, só precisa preencher uma planilha com os dados de cada host, configurar o código para encontrar o servidor do zabbix e executar, pronto você acaba de criar e monitor 100 hosts !!!   
 
+[<img src="https://github.com/rodrigoro86/Cria_Hosts_Zabbix/blob/main/Fluxo_Grama.png">](https://www.linkedin.com/in/rodrigo-broslavschi-de-oliveira-238b18179/)
+
+
 ## :arrow_forward: Executando
 #### 1) Preparar um ambiente virtual, para facilitar a excução do código e não atrapalhar outros projetos: 
 $ python -m venv venv
