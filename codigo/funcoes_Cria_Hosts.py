@@ -15,7 +15,7 @@
 #
 #####################################################################################################
 """
-from estrutura_API_ZABBIX import * #Nesse código tem vários dicionários que são utilizados como estrutura para o código
+from codigo.estrutura_API_ZABBIX import * #Nesse código tem vários dicionários que são utilizados como estrutura para o código
 import json, openpyxl, requests, re
 import pandas as pd
 

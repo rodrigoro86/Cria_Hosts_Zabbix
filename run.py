@@ -1,7 +1,7 @@
 """
 #####################################################################################################
 #
-#                                       main.py
+#                                       run.py
 #
 #####################################################################################################
 #
@@ -20,7 +20,7 @@ from codigo.funcoes_Cria_Hosts import *
 tabela = Le_Tabela('tabelas/Tabela de Hosts.xlsx')
 
 # Neste exemplo estou usando o zabbix 5.4, dependendo da versão do zabbix descomente o código abaixo
-zabbix = Zabbix('Admin', 'zabbix', "http://192.168.220.136/zabbix/api_jsonrpc.php")
-#zabbix = Zabbix('Admin', 'zabbix', "http://192.168.220.136/api_jsonrpc.php")
+#zabbix = Zabbix('Admin', 'zabbix', "http://192.168.220.136/zabbix/api_jsonrpc.php")
+zabbix = Zabbix('Admin', 'zabbix', "http://192.168.220.136/api_jsonrpc.php")
 
 zabbix.cria_hosts(tabela)
