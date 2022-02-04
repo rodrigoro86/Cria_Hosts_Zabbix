@@ -42,3 +42,14 @@ $ pip install <nome_biblioteca>
 - Qual ou quais templates serão utilizados pelo hosts, igual ao grupo se houver mais de um template é só separa-los por vírgula ","  
 
 #### 4) Configurar o arquivo  codigo/run.py   
+
+tabela = Le_Tabela('tabelas/Tabela de Hosts.xlsx')
+Nessa linha é configurado o nome da tabela.
+
+zabbix = Zabbix('Admin', 'zabbix', "http://192.168.220.136/zabbix/api_jsonrpc.php")
+Nessa linha é configurado o login a senha e o ip do Zabbix. 
+
+
+#### 5) Executar o código
+Comando: python run.py
+
